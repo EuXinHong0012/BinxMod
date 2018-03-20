@@ -1,4 +1,4 @@
-Webpate theme colors: 
+Webpage theme colors: 
 
 Orange #f57c36
 Yellow #f8b432
