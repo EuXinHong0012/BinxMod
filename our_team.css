@@ -131,15 +131,6 @@ body
 	font-size: 18px;
 	font-family: arial;
 	color: black;
-	opacity: 0;
-}
-
-.our_team:hover {
-	text-align: center;
-	font-size: 18px;
-	font-family: arial;
-	color: black;
-	opacity: 1;
 	transition: 3s;
 }
 
