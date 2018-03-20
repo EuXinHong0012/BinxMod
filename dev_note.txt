@@ -1,0 +1,11 @@
+Webpate theme colors: 
+
+Orange #f57c36
+Yellow #f8b432
+Red #b61f27
+Black #000000
+Grey 1 #333740
+Grey 2 #787c82
+Green #768353
+Brown  #835f54
+Blue #545a86

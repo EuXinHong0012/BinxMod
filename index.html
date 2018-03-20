@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Binx Mod</title>
+	<meta name="description" content="BinxTV Moderators"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="index_style.css"> 
+	<link rel="shortcut icon" type="image/x-icon" href="images/binx.ico" style="width: 100%; height: 100%;" />
+	<script src="index.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.fa {
+  	padding: 20px;
+  	font-size: 20px;
+  	width: 60px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 100px;
+	}
+
+	.fa:hover {
+	    opacity: 0.7;
+	}
+
+	.fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	}
+
+	.fa-twitter {
+  	background: #55ACEE;
+  	color: white;
+	}
+
+	.fa-google {
+ 	 background: #dd4b39;
+ 	 color: white;
+	}
+
+	.fa-youtube {
+ 	 background: #bb0000;
+ 	 color: white;
+	}
+
+	.fa-reddit {
+ 	 background: #ff5700;
+ 	 color: white;
+	}
+	</style>
+
+</head>
+
+<body class="container">
+
+	<header>
+		<a href=index.html target="_blank"><img class="logo" src="images/templates/binx_mod_image.png" alt="Binx.mod homepage" style="width: 300px; height: 90px; padding-left: 2%;"></a>
+		
+		<div class="topnav" id="myTopnav">
+		<a href="contact.html" target="_blank">Contact Us</a>
+		<a href="announcements.html" target="_blank">Announcements</a>
+		<a href="moderators.html" target="_blank">Moderators</a>
+		<a href="org_chart.html" target="_blank">Mod Chart</a>
+		<a href="our_team.html" target="_blank">Binx's Team</a>
+		<a href="Binx_Mod.html" target="_blank">About</a>
+		<a href="javascript:void(0);" style="font-size:15px;"" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
+	</header>
+
+
+	<div class="body">
+		<h1 style="color: lightgrey; text-align: center; font-size: 550%; text-shadow: 4px 4px #f57c36;"><b>Welcome to the<br>Mod Family</b></h1>
+		<br>
+		<div class="vidr">
+		<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KPKOIt-ZcPo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+		</iframe>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div>
+		<!-- Slideshow container -->
+		<div class="slideshow-container" style="max-width:800px;">
+
+		  <!-- Full-width images with number and caption text -->
+		  <img class="mySlides" src="images/slide2.png" style="width:100%">
+  		  <img class="mySlides" src="images/slide3.png" style="width:100%">
+          <img class="mySlides" src="images/slide1.png" style="width:100%">
+
+    </div>
+	<br>
+
+
+	<footer>
+		<br>
+		<a href="https://www.facebook.com/groups/binxtv/" target="_blank" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/binxtv" target="_blank" class="fa fa-twitter"></a>
+		<a href="https://plus.google.com/106531256433155203281" target="_blank" class="fa fa-google"></a>
+		<a href="alert.html" target="_blank" class="fa fa-youtube"></a>
+		<a href="alert2.html" target="_blank" class="fa fa-reddit"></a>
+		<br>
+		<span style="color: white; font-size: 12px;">&copy;Copyright <a href="https://binx.tv" target="_blank" style="color: white; text-decoration: none;">Binx.TV</a> 2018</span>
+	</footer>
+
+	<script>
+
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";  
+	    }
+	    myIndex++;
+	    if (myIndex > x.length) {myIndex = 1}    
+	    x[myIndex-1].style.display = "block";  
+	    setTimeout(carousel, 5000); // Change image every 2 seconds
+	}
+
+	function myFunction()
+	{
+		var x = document.getElementById("myTopnav");
+		if(x.className === "topnav")
+		{
+			x.className += " responsive";
+		}
+		else
+		{
+			x.className = "topnav";
+		}
+	}
+	</script>
+
+</body>
+</html>
